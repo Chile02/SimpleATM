@@ -72,6 +72,7 @@
             loginbutton.TabIndex = 3;
             loginbutton.Text = "Log In";
             loginbutton.UseVisualStyleBackColor = true;
+            loginbutton.Click += loginbutton_Click;
             // 
             // Registerbutton
             // 
@@ -81,6 +82,7 @@
             Registerbutton.TabIndex = 4;
             Registerbutton.Text = "Register";
             Registerbutton.UseVisualStyleBackColor = true;
+            Registerbutton.Click += Registerbutton_Click;
             // 
             // accBox
             // 
