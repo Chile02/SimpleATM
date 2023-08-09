@@ -24,6 +24,7 @@ namespace Simple__GUI_ATM
             register.Show();
             this.Hide();
         }
+        private static String accNum;
         
         private void loginbutton_Click(object sender, EventArgs e)
         {

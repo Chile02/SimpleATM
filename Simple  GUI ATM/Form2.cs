@@ -17,7 +17,7 @@ namespace Simple__GUI_ATM
         {
             InitializeComponent();
         }
-        public int balance = 0;
+        int balance = 0;
 
         private void signUpbutton_Click(object sender, EventArgs e)
         {
